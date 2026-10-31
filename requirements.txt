@@ -1,0 +1,10 @@
+pandas>=2.1
+numpy
+python-calamine
+matplotlib
+plotly
+streamlit
+sqlalchemy
+psycopg2-binary
+python-dotenv
+pytest

@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Generated files
+reports/*
+*.log
+
+# IDE and local configuration
+.vscode/
+.idea/
+.DS_Store
+
+# Agent configuration and history
+.agents/
+.claude/
+.history/
+
+# Testing
+.pytest_cache/
+.coverage
